@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -102,3 +103,33 @@ dist
 
 # TernJS port file
 .tern-port
+=======
+.DS_Store
+node_modules/
+/.pnp
+.pnp.js
+dist/
+build/
+.eslintcache
+in18_key.js
+generateRandomKey.js
+.init-env
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Editor directories and files
+
+
+# umi
+.umi
+.umi-production
+.umi-test
+>>>>>>> ac1bac4 (init)
